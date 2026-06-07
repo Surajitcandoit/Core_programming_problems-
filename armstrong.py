@@ -1,9 +1,10 @@
 
 def is_armstrong(num):
   num = str(num)
+  power = length(num)
   sum = 0
   for i in num:
-    sum = sum + pow(int(i), 3)
+    sum = sum + pow(int(i), power)
 
   if sum == int(num):
     return True
