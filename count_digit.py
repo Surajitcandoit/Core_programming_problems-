@@ -2,6 +2,7 @@
 num = int(input("Enter a number: "))
 
 def d_count(n):
+  n = abs(n) #to avoid skip negetive number
   u_digit = set()
   digit = 0
   oddCount = 0
@@ -26,7 +27,7 @@ def d_count(n):
   return [len(u_digit), digit, evenCount, oddCount]
 
 def what_digit(n):
-  if n%2 == 0 or n == 0:
+  if n%2 == 0:
     return True
   else:
     return False
