@@ -1,9 +1,12 @@
 
 def check_anagram(a, b):
-  a = sorted(a.strip().lower())                                    first = "".join(a)
+  a = sorted(a.strip().lower())                                      
+
+  first = "".join(a)
   s = sorted(b.strip().lower())
   sec = "".join(s)
-  if first == sec:                                             print("Two word have the same anagram.")
+  if first == sec:                                         
+    print("Two word have the same anagram.")
   else:
     print("Two word don't have the same anagram.")
 
