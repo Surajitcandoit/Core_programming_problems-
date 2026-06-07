@@ -32,7 +32,6 @@ def what_digit(n):
     return False
 
 
-what_digit(num)
 result = d_count(num)
 
 print(f"Your number contains {result[1]} Digit and have {result[0]} unique Digit.\n")
